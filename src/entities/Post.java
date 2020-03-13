@@ -47,4 +47,10 @@ public class Post {
 	public void addComentario( Comentarios comentario) {
 		this.comentarios.add(comentario);
 	}
+	
+	public void getComentarios() {
+		for(Comentarios x:this.comentarios) {
+			System.out.println(x.getComentario());
+		}
+	}
 }
